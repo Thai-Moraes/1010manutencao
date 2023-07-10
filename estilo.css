@@ -4,9 +4,10 @@ body {
 }
 
 div#interface {
-    width: 850px;
+    width: 900px;
     background-color: #abd8ff;
     padding: 20px;
+
     /* box-shadow: 0px 0px 10px rgba(0,0,0, 0.5); */
     margin: auto;
 }
@@ -14,20 +15,33 @@ div#interface {
 header {
     text-align: center;
     border-bottom: 1px solid black;
-    color: #162ac4;
+    color: #231991;
+    font-family: "Courier New";
+    padding-bottom: 10px;
+    margin-top: -30px;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: -13px;
+    word-spacing: 10px;
+}
+
+h3 {
+    font-size: 12pt;
+    word-spacing: 5px;
+}
+
+strong {
+   font-family: "Courier New";
 }
 
 img {
-    width: 550px;
+    width: 600px;
 }
 
 p {
-    font-size: 14pt;
+    font-size: 15.3pt;
 }
 
 footer {
